@@ -1,0 +1,190 @@
+body {
+  background: url("./components/images/ควายป่า_2.jpg");
+
+  height: auto !important;
+  background-size: cover;
+}
+
+.r1 {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #1900ffb2;
+  color: white;
+  text-align: center;
+}
+.size-font {
+  font-size: 20px;
+}
+.size-font-eng {
+  font-size: 15px;
+}
+.size-font1 {
+  font-size: 42px;
+  color: white;
+}
+.size-font2 {
+  font-size: 25px;
+  color: white;
+}
+.font-right {
+  text-align: right;
+}
+.size-font3 {
+  font-size: 40px;
+  color: black;
+}
+.center {
+  position: absolute;
+  left: 40%;
+  top: 25%;
+  width: 25%;
+  text-align: center;
+}
+.center2 {
+  position: absolute;
+  left: 25%;
+  top: 10%;
+  width: 50%;
+  text-align: center;
+}
+
+.one {
+  width: 1000px;
+  padding: 100px;
+  margin-top: 200px;
+  box-sizing: border-box;
+  background-color: rgba(173, 216, 230, 0.171);
+  border-radius: 20px;
+}
+
+.one1 {
+  width: 1000px;
+  padding: 80px;
+  box-sizing: border-box;
+  background-color: rgba(173, 216, 230, 0.356);
+  border-radius: 20px;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: none;
+  color: #0004ff;
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+  width: 140px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(255, 255, 255)(250, 235, 235);
+  color: white;
+  text-align: center;
+}
+
+.bg-form {
+  position: absolute;
+  left: 37%;
+  position: sticky;
+  margin-top: 200px;
+  padding: 10px;
+  width: 500px;
+  text-align: center;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.349);
+}
+.coler-bg {
+  background-color: rgba(255, 255, 255, 0.815);
+  padding: 100px;
+  border-radius: 10px;
+  
+}
+
+.ped-d1 {
+  padding-top: 20px;
+}
+.coler-bg1 {
+  background-color: rgba(255, 255, 255, 0.815);
+  position: absolute;
+  left: 20%;
+  margin-top: 10px;
+  padding: 10px;
+  width: 1200px;
+  text-align: center;
+  border-radius: 10px;
+  color: #2e068a;
+  
+}
+.coler-bg3 {
+  background-color: rgba(255, 255, 255, 0.815);
+  position: absolute;
+  left: 15%;
+  margin-top: 5px;
+  padding: 50px;
+  width: 1200px;
+  text-align: center;
+  border-radius: 10px;
+  color: #2e068a;
+  
+}
+
+.coler-bg4 {
+  background-color: rgba(255, 255, 255, 0.815);
+  position: absolute;
+  left: 15%;
+  margin-top: 5px;
+  padding: 50px;
+  width: 1200px;
+  text-align: center;
+  border-radius: 10px;
+  color: #2e068a;
+  
+}
+.card1 {
+  position: absolute;
+  left: 25%;
+  margin-top: 20px;
+  padding: 150px;
+  width: 1000px;
+  text-align: center;
+  border-radius: 10px;
+}
+.coler-bg2 {
+  background-color: rgba(255, 255, 255, 0.815);
+  position: absolute;
+  margin-top: 50px;
+  padding: 50px;
+  width: 1024px;
+  text-align: center;
+  border-radius: 10px;
+}
+.r-margin{
+  margin-bottom: 70px;
+  
+}
+.r-margintop{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 20%;
+  text-align: center;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.911);
+}
+.pad-l{
+  padding-left: 80px;
+}
+.space{
+  margin: 5px;
+}
+.size-fontf{
+  font-size: 40px;
+
+}
