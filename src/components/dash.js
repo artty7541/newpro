@@ -24,10 +24,12 @@ const Header = () => {
       <NavbarLogin />
       <div className="row">
         <div className="col-md-4">
+          
           <Card className="r-margintop" style={{ width: "25rem" }}>
+          <Card.Title >โปรไฟล์</Card.Title>
             <Card.Img variant="top" src={buf} />
             <Card.Body>
-              <Card.Title >โปรไฟล์</Card.Title>
+              
               <Row>
               <Col>
               ชื่อ-นามสกุล :

@@ -10,7 +10,7 @@ import regis from "./components/regis";
 import bufnew from "./components/bufnew";
 import out from "./components/out";
 import regisfarm from "./components/regisfarm";
-import search from "./components/search";
+import searchandRegistrational from "./components/searchandRegistrational";
 
 class App extends Component {
   render() {
@@ -37,9 +37,8 @@ class App extends Component {
         <Route path="/Footer" component={Footer} />
         <Route path="/bufnew" component={bufnew} />
         <Route path="/out" component={out} />
-        <Route path="/search" component={search} />
-        <Route path="/regisfarm" component={regisfarm} />
-
+        <Route path="/regisfarm" component={regisfarm} /> 
+        <Route path="/searchandRegistrational" component={searchandRegistrational} />
       </Switch>
     );
   }

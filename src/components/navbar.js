@@ -13,15 +13,14 @@ export default function NavbarLogin() {
           <div className="dropbtn">บันทึกทะเบียนประวัติ</div>
           <div className="dropdown-content">
             <a href="/bufnew">บันทึกพันธุ์ประวัติกระบือใหม่</a>
-            <a href="/search">ค้นหาและตรวจสอบ</a>
             <a href="/print">พิมพ์ใบพันธิ์ประวัติ</a>
           </div>
         </div>
 
         <div className="dropdown">
-          <div className="dropbtn">ตรวจสอบสถานะ</div>
+          <div className="dropbtn">ค้นหาและตรวจสอบสถานะการขึ้นทะเบียน</div>
           <div className="dropdown-content">
-            <a href="/Registration">สถานะการขึ้นทะเบียน</a>
+            <a href="/searchandRegistrational">ค้นหาและตรวจสอบสถานะการขึ้นทะเบียน</a>
           </div>
         </div>
 
