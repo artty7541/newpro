@@ -4,7 +4,7 @@ import Footer from "./Footer";
 import { Form, Button, Row, Col } from "react-bootstrap";
 const Header = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid ">
       <div
         className="row "
         style={{ backgroundColor: "#1900ff", color: "white", padding: "20px" }}
@@ -20,7 +20,8 @@ const Header = () => {
         </div>
       </div>
 
-      <div class="center" className="coler-bg1">
+      <div class="center" className="coler-bg1 border-c">
+        <div className="border-c1">
         <h1>สมัครสมาชิก</h1>
         <p></p>
         <p>กรุณากรอกรายละเอียดให้ครบถ้วน</p>
@@ -186,12 +187,10 @@ const Header = () => {
             มีปัญชีอยู่แล้ว ? <a href="login">เข้าสู่ระบบ</a>   <a>|</a> <a href="regisfarm">สมัครสมาชิกสำหรับเกษตรกร</a>
           </p>
         </div>
-      </div>
-
-      <div>
-        <Footer />
-      </div>
+      </div> 
+      </div>    
     </div>
+    
   );
 };
 export default Header;

@@ -20,7 +20,8 @@ const Header = () => {
         </div>
       </div>
 
-      <div class="center" className="coler-bg3">
+      <div class="center" className="coler-bg3 border-c" >
+      <div className="border-c1">
         <h1>สมัครสมาชิก</h1>
         <p></p>
         <p>กรุณากรอกรายละเอียดให้ครบถ้วน</p>
@@ -337,10 +338,9 @@ const Header = () => {
           </p>
         </div>
       </div>
-
-      <div>
-        <Footer />
       </div>
+      <div className="row"></div>
+
     </div>
   );
 };

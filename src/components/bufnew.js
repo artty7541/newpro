@@ -5,7 +5,7 @@ import { Form, Button, Row, Col } from "react-bootstrap";
 import NavbarLogin from "./navbar";
 const Header = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid ">
       <div
         className="row "
         style={{ backgroundColor: "#1900ff", color: "white", padding: "20px" }}
@@ -21,7 +21,8 @@ const Header = () => {
         </div>
       </div>
       <NavbarLogin />
-      <div class="center" className="coler-bg4">
+      <div class="center" className="coler-bg4 border-c">
+        <div  className="border-c1">
         <h1 >รายละเอียดกระบือ</h1>
         <p></p>
         <p >กรุณากรอกรายละเอียดให้ครบถ้วน</p>
@@ -246,10 +247,8 @@ const Header = () => {
         <p></p>
         
       </div>
-      
-      <div>
-        <Footer />
       </div>
+      
     </div>
   );
 };

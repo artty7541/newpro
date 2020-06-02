@@ -38,6 +38,7 @@ const Header = () => {
               <Form.Label className="size-font3">ลงชื่อเข้าใช้</Form.Label>
               <p></p>
               <p></p>
+              <p></p>
               <Form.Control type="email" placeholder="ชื่อผู้ใช้" />
               <Form.Text className="text-muted"></Form.Text>
             </Form.Group>
@@ -48,6 +49,7 @@ const Header = () => {
             </Form.Group>
             <Form.Group controlId="formBasicCheckbox">
               <Form.Check type="checkbox" label="จำรหัสผ่าน" />
+              <p> </p>
             </Form.Group>
             <Link to="/dash">
               <Button variant="primary" type="submit">

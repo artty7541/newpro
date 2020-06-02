@@ -4,7 +4,7 @@ const Footer = (props) => {
   return (
     <div
       className="footer "
-      style={{ backgroundColor: "#1900ff", color: "white", padding: "20px" }}
+      style={{ backgroundColor: "#1900ff", color: "white", padding: "20px" ,maginTop: "50px"}}
     >
       Footer Helo
     </div>

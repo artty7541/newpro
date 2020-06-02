@@ -3,9 +3,10 @@ import "./../photo.css";
 import Footer from "./Footer";
 import {Button} from "react-bootstrap";
 import { Link } from "react-router-dom";
+
 const Header = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid ">
       <div
         className="row "
         style={{ backgroundColor: "#1900ff", color: "white", padding: "20px" }}

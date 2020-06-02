@@ -1,4 +1,4 @@
-body {
+.body {
   background: url("./components/images/ควายป่า_2.jpg");
 
   height: auto !important;
@@ -103,8 +103,10 @@ body {
 }
 .coler-bg {
   background-color: rgba(255, 255, 255, 0.815);
-  padding: 100px;
+  padding: 50px;
   border-radius: 10px;
+  width: 350px;
+
   
 }
 
@@ -128,7 +130,7 @@ body {
   position: absolute;
   left: 15%;
   margin-top: 5px;
-  padding: 50px;
+  padding: 10px;
   width: 1200px;
   text-align: center;
   border-radius: 10px;
@@ -141,7 +143,7 @@ body {
   position: absolute;
   left: 15%;
   margin-top: 5px;
-  padding: 50px;
+  padding: 10px;
   width: 1200px;
   text-align: center;
   border-radius: 10px;
@@ -187,4 +189,17 @@ body {
 .size-fontf{
   font-size: 40px;
 
+}
+.border-c{
+  border-style: solid;
+  border-color: #e7e7e7;
+  border-radius: 10px;
+  background-color: #e7e7e7;
+  box-shadow: 10px 10px 10px #dddddd;
+}
+.border-c1{
+  border-style: solid;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border-color: rgb(255, 255, 255);
 }
