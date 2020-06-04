@@ -22,7 +22,8 @@ const Header = () => {
 
       <div class="center" className="coler-bg3 border-c" >
       <div className="border-c1">
-        <h1>สมัครสมาชิก</h1>
+        <div className="border-c3" style={{ backgroundColor: "#2680EB", color: "white", padding: "20px" }}><h1>สมัครสมาชิก</h1></div>
+        
         <p></p>
         <p>กรุณากรอกรายละเอียดให้ครบถ้วน</p>
         <p></p>
@@ -173,8 +174,12 @@ const Header = () => {
 
         </div>
         <p></p>
+        <div className="border-c3" style={{ backgroundColor: "#2680EB", color: "white", padding: "20px" }}>
+        <h1 className="size-fontf"> ข้อมูลฟาร์ม</h1>
         
-        <p className="size-fontf"> ข้อมูลฟาร์ม</p>
+        </div>
+        <p className="row"> </p>
+        <p className="row"> </p>
         <div>
         <Form.Row>
             <Form.Label column="sm" lg={2} style={{fontSize:"20px"}}>

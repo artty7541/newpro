@@ -27,7 +27,7 @@ const Header = () => {
         <p></p>
         <p >กรุณากรอกรายละเอียดให้ครบถ้วน</p>
         <p></p>
-        <p></p>
+        <p className="row"> </p>
         <div>
           <Form.Row>
             <Form.Label column="sm" lg={2} style={{fontSize:"20px"}}>
@@ -244,7 +244,7 @@ const Header = () => {
           ยกเลิก
         </Button>
 
-        <p></p>
+        <p></p>   
         
       </div>
       </div>

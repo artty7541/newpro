@@ -21,6 +21,7 @@ const Header = () => {
         </div>
 
         <div className="col-1 font-right">
+          
           <Link to="/login">
             <button className="button">เข้าสู่ระบบ</button>
           </Link>
@@ -31,7 +32,8 @@ const Header = () => {
           </Link>
         </div>
       </div>
-      <div className="photo">
+      <div className="photo ">
+      
         <div className="center">
           <Form className="coler-bg">
             <Form.Group controlId="formBasicEmail">
@@ -57,7 +59,7 @@ const Header = () => {
               </Button>
             </Link>
           </Form>
-        </div>
+          </div> 
       </div>
       <Footer />
     </div>

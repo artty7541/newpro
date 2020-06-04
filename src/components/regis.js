@@ -22,7 +22,8 @@ const Header = () => {
 
       <div class="center" className="coler-bg1 border-c">
         <div className="border-c1">
-        <h1>สมัครสมาชิก</h1>
+          <div className="border-c3" style={{ backgroundColor: "#2680EB", color: "white", padding: "20px" }}><h1>สมัครสมาชิก</h1></div>
+        
         <p></p>
         <p>กรุณากรอกรายละเอียดให้ครบถ้วน</p>
         <p></p>
