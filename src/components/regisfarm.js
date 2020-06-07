@@ -171,8 +171,9 @@ const Header = () => {
               <Form.Control size="text" type="text" placeholder="กรุณากรอกรายละเอียด" />
             </Col>
           </Form.Row>
-
+          
         </div>
+        <p className="row"></p>
         <p></p>
         <div className="border-c3" style={{ backgroundColor: "#2680EB", color: "white", padding: "20px" }}>
         <h1 className="size-fontf"> ข้อมูลฟาร์ม</h1>

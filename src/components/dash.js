@@ -22,10 +22,10 @@ const Header = () => {
         </div>
       </div>
       <NavbarLogin />
-      <div className="row">
+      <div className="row ">
         <div className="col-md-4">
           
-          <Card className="r-margintop" style={{ width: "25rem" }}>
+          <Card className="r-margintop border-c4" style={{ width: "25rem" }}>
           <Card.Title >โปรไฟล์</Card.Title>
             <Card.Img variant="top" src={buf} />
             <Card.Body>
@@ -97,8 +97,8 @@ const Header = () => {
             </Card.Body>
           </Card>
         </div>
-        <div className="col-md-8 pad-l" >
-          <div className="row coler-bg2">
+        <div className="col-md-8 pad-l"  >
+          <div className="row coler-bg2 border-c4">
           <div className="row r-margin">
             <Card border="primary" style={{ width: "18rem" , marginRight: "30px"}}>
               <Card.Header>ตรวจสอบสถานะการจัดทำ</Card.Header>

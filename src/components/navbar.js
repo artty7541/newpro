@@ -3,7 +3,7 @@ import "./styenavbar.css";
 //react------ HOOK
 export default function NavbarLogin() {
   return (
-    <div>
+   
       <nav className="row">
         <div className="dropdown">
           <div className="dropbtn">หน้าหลัก</div>
@@ -72,6 +72,6 @@ export default function NavbarLogin() {
         
         <div className="col floatRight"></div>
       </nav>
-    </div>
+    
   );
 }
