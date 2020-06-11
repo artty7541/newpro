@@ -11,6 +11,7 @@ import bufnew from "./components/bufnew";
 import out from "./components/out";
 import regisfarm from "./components/regisfarm";
 import searchandRegistrational from "./components/searchandRegistrational";
+import trace from "./components/trace";
 
 class App extends Component {
   render() {
@@ -39,6 +40,7 @@ class App extends Component {
         <Route path="/out" component={out} />
         <Route path="/regisfarm" component={regisfarm} /> 
         <Route path="/searchandRegistrational" component={searchandRegistrational} />
+        <Route path="/trace" component={trace} />
       </Switch>
     );
   }
