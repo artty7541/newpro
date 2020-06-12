@@ -27,7 +27,7 @@ const Header = () => {
           
           <Card className="r-margintop border-c4" style={{ width: "25rem" }}>
           <Card.Title >โปรไฟล์</Card.Title>
-            <Card.Img variant="top" src={buf} />
+            <Card.Img  variant="top" src={buf} />
             <Card.Body>
               
               <Row>
