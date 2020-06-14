@@ -147,7 +147,13 @@ const Header = () => {
       <td>-</td>
       <td>-</td>
       <td>-</td>
-      <td>ชื่อผู้รับ</td>
+      <td>
+        <div>
+
+  <Button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+ชื่อผู้รับ  </Button>
+</div>
+</td>
       
     </tr>
    
