@@ -3,16 +3,20 @@ import "./../photo.css";
 import Footer from "./Footer";
 import {Button} from "react-bootstrap";
 import { Link } from "react-router-dom";
+import images from "./images/ควายป่า_2.jpg";
 
 const Header = () => {
   return (
+
+    <div className="body">
     <div className="container-fluid ">
       <div
         className="row "
-        style={{ backgroundColor: "#1900ff", color: "white", padding: "20px"  }}
+        style={{ backgroundColor: "#1900ff", color: "white", padding: "20px"  }} 
       >
+        
         <div className="col">
-          <div className="row size-font">
+          <div className="row size-font ">
             การขึ้นทะเบียนกระบือและออกใบพันธุ์ประวัติกระบือออนไลน์
           </div>
           <div className="row size-font-eng">
@@ -21,7 +25,7 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="col-1 font-right">
+        <div className="col-1 font-right ">
           <Link to="/login"><button className="button">
           
               เข้าสู่ระบบ
@@ -50,6 +54,7 @@ const Header = () => {
         </div>
       </div>
       <Footer />
+    </div>
     </div>
   );
 };

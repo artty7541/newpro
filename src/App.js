@@ -13,7 +13,7 @@ import regisfarm from "./components/regisfarm";
 import searchandRegistrational from "./components/searchandRegistrational";
 import trace from "./components/trace";
 import finish from "./components/finish";
-
+import information from "./components/information";
 class App extends Component {
   render() {
     return (
@@ -43,6 +43,7 @@ class App extends Component {
         <Route path="/searchandRegistrational" component={searchandRegistrational} />
         <Route path="/trace" component={trace} />
         <Route path="/finish" component={finish} />
+        <Route path="/information" component={information} />
       </Switch>
     );
   }

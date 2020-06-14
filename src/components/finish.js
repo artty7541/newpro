@@ -1,7 +1,7 @@
 import React from "react";
 import "./../photo.css";
 import Footer from "./Footer";
-import { Form, Button, Row, Col, Table, Card,Tab, } from "react-bootstrap";
+import { Form, Button, Row, Col, Table, Card,Tab,Nav } from "react-bootstrap";
 import NavbarLogin from "./navbar";
 const Header = () => {
   return (

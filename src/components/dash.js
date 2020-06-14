@@ -4,9 +4,10 @@ import Footer from "./Footer";
 import NavbarLogin from "./navbar";
 import { Card, Col,Row} from "react-bootstrap";
 import buf from "./images/background.jpg";
+
 const Header = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid ">
       <div
         className="row "
         style={{ backgroundColor: "#1900ff", color: "white", padding: "20px" }}

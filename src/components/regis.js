@@ -5,11 +5,12 @@ import { Form, Button, Row, Col } from "react-bootstrap";
 const Header = () => {
   return (
     <div className="container-fluid ">
+      
       <div
         className="row "
         style={{ backgroundColor: "#1900ff", color: "white", padding: "20px" }}
       >
-        <div className="col">
+        <div className="col ">
           <div className="row size-font">
             การขึ้นทะเบียนกระบือและออกใบพันธุ์ประวัติกระบือออนไลน์
           </div>
