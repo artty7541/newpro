@@ -1,4 +1,5 @@
 import React from "react";
+import Popup from "reactjs-popup";
 import "./../photo.css";
 import Footer from "./Footer";
 import { Form, Button, Row, Col, Table, Card } from "react-bootstrap";
@@ -151,16 +152,12 @@ const Header = () => {
                       <td>-</td>
                       <td>-</td>
                      
-                      <td> <div>
-                          <Button
-                            type="button"
-                            className="btn btn-danger"
-                            data-toggle="modal"
-                            data-target="#myModal"
-                          >
-                            ผู้้รับ{" "}
-                          </Button>
-                        </div></td>
+                      <td> 
+                        <Popup trigger={<button className="button">ชื่อผู้รับ</button>}
+                          modle
+                          closeOnDocumentClick>
+                        </Popup>
+                      </td>
 
                       
                     </tr>
