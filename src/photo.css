@@ -383,7 +383,7 @@
 }
 .border-c17{
   margin-top: 1px;
-  height: 570px;
+  height: 700 px;
   border-style: solid;
   border-color: #e7e7e7;
   border-radius: 10px;
@@ -393,7 +393,7 @@
 }
 .border-c18{
   margin-top: 60px;
-   height: 400px;
+   height: 415px;
    border-style: solid;
    border-color: #e7e7e7;
    border-radius: 10px;
@@ -447,3 +447,13 @@
   height: 950px;
   
 }
+.border-c21{
+  margin-top: 20px;
+   height: 150px;
+   border-style: solid;
+   border-color: #e7e7e7;
+   border-radius: 10px;
+   background-color: #ffffff;
+   left: 315px;
+   
+ }

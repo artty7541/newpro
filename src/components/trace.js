@@ -72,7 +72,7 @@ const Header = () => {
           <div className="col-md-4">
             <Card
               className="r-margintop border-c17 "
-              style={{ width: "20rem", padding: "10px" }}
+              style={{ width: "23rem", padding: "10px" }}
             > <Card.Title  style={{ backgroundColor: "#1900ff", color: "white", padding: "20px" }}>ที่อยู่ในการจัดส่ง</Card.Title>
               <Card.Body>
                 <Row>
@@ -87,6 +87,7 @@ const Header = () => {
                   <Col>เบอร์โทร :</Col>
                   <Col>-</Col>
                 </Row>
+                
               </Card.Body>
 
              
@@ -98,6 +99,7 @@ const Header = () => {
                 className=" border-c18"
                 style={{ width: "80rem", padding: "10px" }}
               ><Card.Title  style={{ backgroundColor: "#1900ff", color: "white", padding: "20px" }}>สถานะการจัดส่ง</Card.Title>
+                <p style={{ backgroundColor: "gray", color: "white"}}>ผมการค้นหา :</p>
                 <Table striped bordered hover>
                   <thead>
                     <tr style={{ backgroundColor: "#2680EB", color: "white" }}>
@@ -154,8 +156,31 @@ const Header = () => {
                      
                       <td> 
                         <Popup trigger={<button className="button">ชื่อผู้รับ</button>}
-                          modle
+                          modal
+
                           closeOnDocumentClick>
+                            <span >
+                            <Card.Title style={{backgroundColor:"blue", color:"white" ,padding:"10px"}}> ผู้รับ</Card.Title>
+                            <p className="row"></p>
+                            <div>  
+                            <p>หมายเลขพัสดุ : 123456789123</p>
+                            <p>วันออกจำหน่ายสินค้า : 123456789123</p>
+                            <p>เวลาจำหน่ายสินค้า : 123456789123</p>
+                            <p>ชื่อผู้รับ : 123456789123</p>
+                            <p>ประเภทของการสเเกน : 123456789123</p> 
+                            <Card
+              className="border-c21 "
+              style={{ width: "20rem", padding: "10px" }}
+            > 
+              <Card.Body>
+                ลายเซ็น
+              </Card.Body>
+
+             
+            </Card>
+                     <p className="row"></p>
+                            </div>
+                                  </span>
                         </Popup>
                       </td>
 
