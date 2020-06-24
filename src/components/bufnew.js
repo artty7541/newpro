@@ -224,12 +224,7 @@ const Header = () => {
           </Form.Row>
           <Form>
   
-  <div className="mb-3">
-    <Form.File id="formcheck-api-regular">
-      <Form.File.Label></Form.File.Label>
-      <Form.File.Input />
-    </Form.File>
-  </div>
+ 
 </Form> 
         </div>
         <Button type="pem" className="btn btn-blue">

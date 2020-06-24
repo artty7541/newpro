@@ -12,8 +12,8 @@ const Header = () => {
         className="row "
         style={{ backgroundColor: "#1900ff", color: "white", padding: "20px" }}
       >
-        <div className="col">
-          <div className="row size-font">
+        <div className="col ">
+          <div className="row size-font ">
             การขึ้นทะเบียนกระบือและออกใบพันธุ์ประวัติกระบือออนไลน์
           </div>
           <div className="row size-font-eng">
@@ -24,8 +24,7 @@ const Header = () => {
       </div>
       <NavbarLogin />
       <div className="row ">
-        <div className="col-md-4">
-          
+        <div className="col-md-4 ">
           <Card className="r-margintop border-c4" style={{ width: "25rem" }}>
           <Card.Title >โปรไฟล์</Card.Title>
             <Card.Img  variant="top" src={buf} />

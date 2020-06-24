@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className="container-fluid">
       <div
-        className="row "
+        className="row"
         style={{ backgroundColor: "#1900ff", color: "white", padding: "20px" }}
       >
         <div className="col">
@@ -33,8 +33,8 @@ const Header = () => {
         </div>
       </div>
       <div className="photo ">
-      
-        <div className="center">
+
+        <div className="center ">
           <Form className="coler-bg">
             <Form.Group controlId="formBasicEmail">
               <Form.Label className="size-font3">ลงชื่อเข้าใช้</Form.Label>
@@ -60,7 +60,7 @@ const Header = () => {
             </Link>
           </Form>
           </div> 
-      </div>
+          </div>
       <Footer />
     </div>
   );
