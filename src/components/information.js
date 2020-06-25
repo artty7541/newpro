@@ -1,6 +1,7 @@
 import React from "react";
 import "./../photo.css";
 import Footer from "./Footer";
+import { Link } from "react-router-dom";
 import { Form, Button, Row, Col, Card, Table } from "react-bootstrap";
 import NavbarLogin from "./navbar";
 const Header = () => {
@@ -123,16 +124,19 @@ const Header = () => {
                 </Row>
               </Card.Body>
 
-              <div>
-                <Button
-                  type="submit"
-                  className="btn btn-green space"
-                  style={{ width: "10rem" ,backgroundColor:"#12C48D"}}
-                >
-                  ชำระเงิน
-                </Button>
+           
                 
-              </div>
+        <div>
+          <Link to="/payment"><button  type="submit"
+                  className="btn btn-green space"
+                  style={{ width: "10rem" ,backgroundColor:"#12C48D" ,color:"white"}}>
+          
+              ชำระเงิน
+            
+          </button>
+          </Link>
+        </div>
+            
             </Card>
           <div className="col-md-4">
             <Card

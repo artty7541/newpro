@@ -14,6 +14,7 @@ import searchandRegistrational from "./components/searchandRegistrational";
 import trace from "./components/trace";
 import finish from "./components/finish";
 import information from "./components/information";
+import payment from "./components/payment";
 class App extends Component {
   render() {
     return (
@@ -44,6 +45,7 @@ class App extends Component {
         <Route path="/trace" component={trace} />
         <Route path="/finish" component={finish} />
         <Route path="/information" component={information} />
+        <Route payment="/information" component={payment} />
       </Switch>
     );
   }

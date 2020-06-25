@@ -4,7 +4,7 @@ import Footer from "./Footer";
 import NavbarLogin from "./navbar";
 import { Card, Col,Row} from "react-bootstrap";
 import buf from "./images/background.jpg";
-
+import im from "./images/ควายป่า_2.jpg";
 const Header = () => {
   return (
     <div className="container-fluid ">
@@ -24,7 +24,7 @@ const Header = () => {
       </div>
       <NavbarLogin />
       <div className="row ">
-        <div className="col-md-4 ">
+        <div className="col-md-4">
           <Card className="r-margintop border-c4" style={{ width: "25rem" }}>
           <Card.Title >โปรไฟล์</Card.Title>
             <Card.Img  variant="top" src={buf} />
@@ -97,7 +97,7 @@ const Header = () => {
             </Card.Body>
           </Card>
         </div>
-        <div className="col-md-8 pad-l"  >
+        <div className="col-md-8 pad-l im"  >
           <div className="row coler-bg2 border-c4">
           <div className="row r-margin">
             <Card border="primary" style={{ width: "18rem" , marginRight: "30px"}}>

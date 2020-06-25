@@ -32,10 +32,10 @@ const Header = () => {
           </Link>
         </div>
       </div>
-      <div className="photo ">
+      <div className="photo">
 
         <div className="center ">
-          <Form className="coler-bg">
+          <Form className="coler-bg ">
             <Form.Group controlId="formBasicEmail">
               <Form.Label className="size-font3">ลงชื่อเข้าใช้</Form.Label>
               <p></p>
@@ -59,10 +59,11 @@ const Header = () => {
               </Button>
             </Link>
           </Form>
+       
           </div> 
           </div>
       <Footer />
-    </div>
+    </div>  
   );
 };
 export default Header;

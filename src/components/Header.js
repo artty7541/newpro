@@ -8,25 +8,27 @@ import images from "./images/ควายป่า_2.jpg";
 
 const Header = () => {
   return (
-
-    <div className="body">
+    
+      
+  
+  
     <div className="container-fluid ">
       <div
         className="row "
         style={{ backgroundColor: "#1900ff", color: "white", padding: "20px"  }} 
       >
         
-        <div className="col">
+        <div className="col ">
           <div className="row size-font ">
             การขึ้นทะเบียนกระบือและออกใบพันธุ์ประวัติกระบือออนไลน์
           </div>
-          <div className="row size-font-eng">
+          <div className="row size-font-eng ">
             {" "}
             Buffalo Registration and Pedigree Online
           </div>
         </div>
 
-        <div className="col-1 font-right ">
+        <div className="col-1 font-right">
           <Link to="/login"><button className="button">
           
               เข้าสู่ระบบ
@@ -50,13 +52,15 @@ const Header = () => {
               <h1 className="size-font2 ped-d1">
                 การขึ้นทะเบียนกระบือและออกใบพันธุ์ประวัติกระบือออนไลน์
               </h1>
-            </h1>
-          </div>
+            </h1>    
+    
+      </div>
+
         </div>
       </div>
       <Footer />
     </div>
-    </div>
+    
   );
 };
 export default Header;

@@ -1,8 +1,8 @@
-.body {
+.im{
   background: url("./components/images/ควายป่า_2.jpg");
 
   height: auto !important;
-  background-size: cover;
+  background-size: 100%;
 }
 
 .r1 {
@@ -36,10 +36,11 @@
   color: black;
 }
 .center {
+  
   position: absolute;
   left: 40%;
   top: 25%;
-  width: 25%;
+  width: 50%;
   text-align: center;
 }
 .center2 {
@@ -457,3 +458,103 @@
    left: 315px;
    
  }
+ .border-c22{
+  margin-top: 120px;
+  height: 150px;
+  border-style: solid;
+  border-color: #e7e7e7;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 10px #dddddd;
+  left: 120px;
+}
+.border-c23{
+  margin-top: 120px;
+  height: 150px;
+  border-style: solid;
+  border-color: #e7e7e7;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 10px #dddddd;
+  left: 400px;
+}
+.border-c24{
+  margin-top: 120px;
+  height: 150px;
+  border-style: solid;
+  border-color: #e7e7e7;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 10px #dddddd;
+  left: 1000px;
+}
+.border-c25{
+  margin-top: 350px;
+  height: 50px;
+  border-style: solid;
+  border-color: #e7e7e7;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 10px #dddddd;
+  left: 75px;
+}
+.border-c26{
+  margin-top: 420px;
+  height: 50px;
+  border-style: solid;
+  border-color: #e7e7e7;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 10px #dddddd;
+  left: 75px;
+}
+.border-c27{
+  margin-top: 420px;
+  height: 50px;
+  border-style: solid;
+  border-color: #e7e7e7;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 10px #dddddd;
+  left: 300px;
+}
+.border-c28{
+  margin-top: 420px;
+  height: 50px;
+  border-style: solid;
+  border-color: #e7e7e7;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 10px #dddddd;
+  left: 520px;
+}
+.border-c29{
+  margin-top: 500px;
+  height: 50px;
+  border-style: solid;
+  border-color: #e7e7e7;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 10px #dddddd;
+  left: 520px;
+}
+.border-c30{
+  margin-top: 500px;
+  height: 50px;
+  border-style: solid;
+  border-color: #e7e7e7;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 10px #dddddd;
+  left: 300px;
+}
+.border-c31{
+  margin-top: 500px;
+  height: 50px;
+  border-style: solid;
+  border-color: #e7e7e7;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 10px #dddddd;
+  left: 75px;
+}
