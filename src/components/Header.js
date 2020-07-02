@@ -1,7 +1,7 @@
 import React from "react";
 import "./../photo.css";
 import Footer from "./Footer";
-import {Button} from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import images from "./images/ควายป่า_2.jpg";
 
@@ -9,15 +9,11 @@ import images from "./images/ควายป่า_2.jpg";
 const Header = () => {
   return (
     
-      
-  
-  
-    <div className="container-fluid ">
+    <div className="container-fluid bg-img">
       <div
         className="row "
-        style={{ backgroundColor: "#1900ff", color: "white", padding: "20px"  }} 
+        style={{ backgroundColor: "#1900ff", color: "white", padding: "20px" }}
       >
-        
         <div className="col ">
           <div className="row size-font ">
             การขึ้นทะเบียนกระบือและออกใบพันธุ์ประวัติกระบือออนไลน์
@@ -29,34 +25,29 @@ const Header = () => {
         </div>
 
         <div className="col-1 font-right">
-          <Link to="/login"><button className="button">
-          
-              เข้าสู่ระบบ
-            
-          </button>
+          <Link to="/login">
+            <button className="button">เข้าสู่ระบบ</button>
           </Link>
         </div>
         <div className="col-1 font-right">
-          <Link to="/regis"><button className="button">
-            สมัครสมาชิก
-          </button>
+          <Link to="/regis">
+            <button className="button">สมัครสมาชิก</button>
           </Link>
         </div>
       </div>
-      <div className="row"></div>
-      <div className="photo">
-        <div className="center2">
-          <div className="row size-font1">
-            <h1 className="one size-font1">
-              Buffalo Registration and Pedigree Online
-              <h1 className="size-font2 ped-d1">
-                การขึ้นทะเบียนกระบือและออกใบพันธุ์ประวัติกระบือออนไลน์
-              </h1>
-            </h1>    
-    
-      </div>
-
+      <div className="row "></div>
+     <div>
+      <div className="center2 ">
+        <div className="row size-font1 ">
+          <h1 className="one size-font1 ">
+            Buffalo Registration and Pedigree Online
+            <h1 className="size-font2 ped-d1 ">
+              การขึ้นทะเบียนกระบือและออกใบพันธุ์ประวัติกระบือออนไลน์
+            </h1>
+          </h1>
+          
         </div>
+      </div>
       </div>
       <Footer />
     </div>

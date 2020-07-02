@@ -24,7 +24,7 @@ class App extends Component {
             <Header />
           </div>
         </div>
-
+        
         <div className="row"></div>
         <div className="row r1"></div>
       </div>

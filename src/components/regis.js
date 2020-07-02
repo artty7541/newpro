@@ -26,12 +26,12 @@ const Header = () => {
           <div className="border-c3" style={{ backgroundColor: "#2680EB", color: "white", padding: "20px" }}><h1>สมัครสมาชิก</h1></div>
         
         <p></p>
-        <p>กรุณากรอกรายละเอียดให้ครบถ้วน</p>
+        <p style={{color:"red"}}>* กรุณากรอกรายละเอียดให้ครบถ้วน</p>
         <p></p>
         <div>
           <Form.Row>
             <Form.Label column="sm" lg={2} style={{fontSize:"20px"}}>
-              ชื่อผู้ใช้
+              * ชื่อผู้ใช้
             </Form.Label>
             <Col>
               <Form.Control
@@ -39,11 +39,24 @@ const Header = () => {
                 type="text"
                 placeholder="กรุณากรอกชื่อผู้ใช้งาน"
               />
-            </Col>
+            </Col> 
+            <Col md={{ span: 4, offset: 1 }} className="text-center ">
+                <div>
+                  <div className="container-fluid boxImgFrom  ">
+                 
+                    
+                    <input
+                      type="file"
+                      name="avatar"
+                      onChange={event => this.fileChangedHandler(event)}
+                    />
+                  </div>
+                </div>
+              </Col>
           </Form.Row>
           <Form.Row>
             <Form.Label column="sm" lg={2} style={{fontSize:"20px"}}>
-              รหัสผ่าน
+             * รหัสผ่าน
             </Form.Label>
             <Col>
               <Form.Control
@@ -55,7 +68,7 @@ const Header = () => {
           </Form.Row>
           <Form.Row>
             <Form.Label column="sm" lg={2} style={{fontSize:"20px"}}>
-              ยืนยันรหัสผ่าน
+            * ยืนยันรหัสผ่าน
             </Form.Label>
             <Col>
               <Form.Control
@@ -67,7 +80,7 @@ const Header = () => {
           </Form.Row>
           <Form.Row>
             <Form.Label column="sm" lg={2} style={{fontSize:"20px"}}>
-              ชื่อ
+              * ชื่อ
             </Form.Label>
             <Col>
               <Form.Control size="text" type="text" placeholder="กรุณากรอกชื่อ" />
@@ -75,7 +88,7 @@ const Header = () => {
           </Form.Row>
           <Form.Row>
             <Form.Label column="sm" lg={2} style={{fontSize:"20px"}}>
-              นามสกุล
+              * นามสกุล
             </Form.Label>
             <Col>
               <Form.Control
@@ -84,10 +97,11 @@ const Header = () => {
                 placeholder="กรุณากรอกนามสกุล"
               />
             </Col>
+            
           </Form.Row>
           <Form.Row>
             <Form.Label column="sm" lg={2} style={{fontSize:"20px"}}>
-              เพศ
+              * เพศ
             </Form.Label>
             <Col>
               <Form.Control as="select" size="text">
@@ -101,7 +115,7 @@ const Header = () => {
             
           <Form.Row>
             <Form.Label column="sm" lg={2} style={{fontSize:"20px"}}>
-              เลขบัตรประชาชน
+              * เลขบัตรประชาชน
             </Form.Label>
             <Col>
               <Form.Control size="text" type="text" placeholder="กรุณากรอกเลขบัตรประชาชน" />
@@ -109,7 +123,7 @@ const Header = () => {
           </Form.Row>
           <Form.Row>
             <Form.Label column="sm" lg={2} style={{fontSize:"20px"}}>
-              เบอร์โทรศัพท์
+              * เบอร์โทรศัพท์
             </Form.Label>
             <Col>
               <Form.Control size="text" type="text" placeholder="กรุณากรอกเบอร์โทรศัพท์" />
@@ -118,7 +132,7 @@ const Header = () => {
 
           <Form.Row>
           <Form.Label column="sm" lg={2} style={{fontSize:"20px"}}>
-              ที่อยู่
+              * ที่อยู่
             </Form.Label>
             <Col>
               <Form.Control size="text" type="text" placeholder="" />
@@ -135,7 +149,7 @@ const Header = () => {
             </Col>
 
             <Form.Label columm="sm" lg={2} style={{fontSize:"20px"}}>
-              อำเภอ
+             อำเภอ
             </Form.Label>
             <Col>
               <Form.Control as="select" size="text">
@@ -145,7 +159,7 @@ const Header = () => {
             </Col>
 
             <Form.Label columm="sm" lg={2} style={{fontSize:"20px"}}>
-              ตำบล
+             ตำบล
             </Form.Label>
             <Col>
               <Form.Control as="select" size="text">
@@ -171,6 +185,7 @@ const Header = () => {
             <Col>
               <Form.Control size="text" type="text" placeholder="กรุณากรอกรายละเอียด" />
             </Col>
+           
           </Form.Row>
 
         </div>

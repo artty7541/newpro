@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 import { Form, Button } from "react-bootstrap";
 const Header = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid ">
       <div
-        className="row"
+        className="row "
         style={{ backgroundColor: "#1900ff", color: "white", padding: "20px" }}
       >
         <div className="col">
@@ -20,7 +20,7 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="col-1 font-right">
+        <div className="col-1 font-right ">
           
           <Link to="/login">
             <button className="button">เข้าสู่ระบบ</button>
@@ -32,7 +32,7 @@ const Header = () => {
           </Link>
         </div>
       </div>
-      <div className="photo">
+      <div className="photo ">
 
         <div className="center ">
           <Form className="coler-bg ">

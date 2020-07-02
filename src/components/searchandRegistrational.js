@@ -1,10 +1,12 @@
 import React from "react";
 import "./../photo.css";
-import Footer from "./Footer";
+import Popup from "reactjs-popup";
+
 import NavbarLogin from "./navbar";
 import buf from "./images/background.jpg";
-import { Form, Button, Row, Col,InputGroup,FormControl,Table} from "react-bootstrap";
+import { Form, Button, Row, Col,InputGroup,FormControl,Table,Card} from "react-bootstrap";
 const Header = () => {
+  
   return (
     <div className="container-fluid">
       <div
@@ -29,7 +31,7 @@ const Header = () => {
         </div>
         <p className="row"> </p>
         <p className="row"> </p>
-        
+       
       <div>
       <Form.Row>
             <Form.Label column="sm" lg={2} style={{fontSize:"15px"}}>
@@ -80,7 +82,67 @@ const Header = () => {
       <td>-</td>
       <td>-</td>
       <td>-</td>
-      <td>-</td>
+      <td> <Popup trigger={<Button className="button"></Button>}
+                          modal
+
+                          closeOnDocumentClick>
+                            <span >
+                            <Card.Title style={{backgroundColor:"blue", color:"white" ,padding:"10px"}}>รายละเอียด</Card.Title>
+                            <p className="row"></p>
+                            <div>  
+                            
+                            <Card> 
+                            <Popup trigger={<Button className="button">ข้อมูลกระบือ</Button>}
+                          modal
+
+                          closeOnDocumentClick>
+                            <span >
+                            <Card.Title style={{backgroundColor:"blue", color:"white" ,padding:"10px"}}>ข้อมูลกระบือ</Card.Title>
+                            <p className="row"></p>
+                            <div>  
+                            
+           
+                            </div>
+                                  </span>
+                        </Popup>
+            </Card>
+            <Card>
+            
+                            <Popup trigger={<Button className="button">ข้อมูลพันธุ์ประวัติ</Button>}
+                          modal
+
+                          closeOnDocumentClick>
+                            <span >
+                            <Card.Title style={{backgroundColor:"blue", color:"white" ,padding:"10px"}}>ข้อมูลพันธุ์ประวัติ  </Card.Title>
+                            <p className="row"></p>
+                            <div>  
+                            
+           
+                            </div>
+                                  </span>
+                        </Popup>
+            </Card>
+            <Card> 
+                            <Popup trigger={<Button className="button">หลักฐานการชำระเงิน</Button>}
+                          modal
+
+                          closeOnDocumentClick>
+                            <span >
+                            <Card.Title style={{backgroundColor:"blue", color:"white" ,padding:"10px"}}>หลักฐานการชำระเงิน</Card.Title>
+                            <p className="row"></p>
+                            <div>  
+                            
+           
+                            </div>
+                                  </span>
+                        </Popup>
+            </Card>
+            
+            
+                     <p className="row"></p>
+                            </div>
+                                  </span>
+                        </Popup></td>
       <td>-</td>
     </tr>
     <tr>
@@ -111,7 +173,8 @@ const Header = () => {
       </div>
      </div>
      </div>
-     
+  
     )
+  
   };
   export default Header;

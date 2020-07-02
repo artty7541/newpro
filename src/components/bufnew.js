@@ -1,8 +1,9 @@
 import React from "react";
 import "./../photo.css";
 import Footer from "./Footer";
-import { Form, Button, Row, Col } from "react-bootstrap";
+import { Form, Button, Row, Col,Card } from "react-bootstrap";
 import NavbarLogin from "./navbar";
+import Popup from "reactjs-popup";
 const Header = () => {
   return (
     <div className="container-fluid ">
@@ -25,13 +26,13 @@ const Header = () => {
         <div  className="border-c1">
         <h1 >รายละเอียดกระบือ</h1>
         <p></p>
-        <p >กรุณากรอกรายละเอียดให้ครบถ้วน</p>
+        <p style={{color:"red"}}>* กรุณากรอกรายละเอียดให้ครบถ้วน</p>
         <p></p>
         <p className="row"> </p>
         <div>
           <Form.Row>
             <Form.Label column="sm" lg={2} style={{fontSize:"20px"}}>
-              ชื่อกระบือ
+              * ชื่อกระบือ
             </Form.Label>
             <Col>
               <Form.Control
@@ -42,7 +43,7 @@ const Header = () => {
             </Col>
             
             <Form.Label column="sm" lg={2} style={{fontSize:"20px"}}>
-              น้ำหนักแรกเกิด
+              * น้ำหนักแรกเกิด
             </Form.Label>
             <Col>
               <Form.Control
@@ -64,7 +65,7 @@ const Header = () => {
               />
             </Col>
             <Form.Label column="sm" lg={2} style={{fontSize:"20px"}}>
-              วันหย่านม
+              * วันหย่านม
             </Form.Label>
             <Col>
               <Form.Control
@@ -86,7 +87,7 @@ const Header = () => {
               />
             </Col>
             <Form.Label column="sm" lg={2} style={{fontSize:"20px"}}>
-              น้ำหนักอายุ 1 ปี
+              * น้ำหนักอายุ 1 ปี
             </Form.Label>
             <Col>
               <Form.Control size="text" type="text" placeholder="(ก.ก.)" />
@@ -94,13 +95,13 @@ const Header = () => {
           </Form.Row>
           <Form.Row>
             <Form.Label column="sm" lg={2} style={{fontSize:"20px"}}>
-              วัน/เดือน/ปี เกิด
+              * วัน/เดือน/ปี เกิด
             </Form.Label>
             <Col>
               <Form.Control size="text" type="text" placeholder="วว/ดด/ปป" />
             </Col>
             <Form.Label column="sm" lg={2} style={{fontSize:"20px"}}>
-              น้ำหนักอายุ 2 ปี
+              * น้ำหนักอายุ 2 ปี
             </Form.Label>
             <Col>
               <Form.Control size="text" type="text" placeholder="(ก.ก.)" />
@@ -108,7 +109,7 @@ const Header = () => {
           </Form.Row>
           <Form.Row>
             <Form.Label column="sm" lg={2} style={{fontSize:"20px"}}>
-              เพศ
+              * เพศ
             </Form.Label>
             <Col>
               <Form.Control as="select" size="text">
@@ -118,7 +119,7 @@ const Header = () => {
               </Form.Control>
             </Col>
             <Form.Label column="sm" lg={2} style={{fontSize:"20px"}}>
-              น้ำหนักหย่านม
+              * น้ำหนักหย่านม
             </Form.Label>
             <Col>
               <Form.Control size="text" type="text" placeholder="(ก.ก.)" />
@@ -136,7 +137,7 @@ const Header = () => {
               </Form.Control>
             </Col>
             <Form.Label column="sm" lg={2} style={{fontSize:"20px"}}>
-              รอบอก
+              * รอบอก
             </Form.Label>
             <Col>
               <Form.Control size="text" type="text" placeholder="(cm.)" />
@@ -154,7 +155,7 @@ const Header = () => {
               />
             </Col>
             <Form.Label column="sm" lg={2} style={{fontSize:"20px"}}>
-              ความสูงของหัวไหล่
+             * ความสูงของหัวไหล่
             </Form.Label>
             <Col>
               <Form.Control size="text" type="text" placeholder="(cm.)" />
@@ -172,7 +173,7 @@ const Header = () => {
               />
             </Col>
             <Form.Label column="sm" lg={2} style={{fontSize:"20px"}}>
-              ความยาวลำตัว
+              * ความยาวลำตัว
             </Form.Label>
             <Col>
               <Form.Control size="text" type="text" placeholder="(cm.)" />
@@ -221,16 +222,51 @@ const Header = () => {
                 placeholder="หมายเลขประจำตัวแม่พันธุ์ (ถ้ามี)"
               />
             </Col>
-          </Form.Row>
+           
+          </Form.Row> 
+          <hr /> 
+          <Col  className="text-center ">
+                <h1 style={{fontSize:"30px"}}> อัฟโหลดรูปภาพ</h1>
+                <p style={{color:"red"}}>* กรุณาอัฟโหลดรูปภาพจำนวน 4 รูประกอบด้วย ด้านหน้า ด้านบน ด้านซ้ายและด้านขวา</p>
+                <div>
+                  <div className="container-fluid boxImgFrom  ">
+          
+                    
+                    <input
+                      type="file"
+                      name="avatar"
+                      onChange={event => this.fileChangedHandler(event)}
+                    />
+                  </div>
+                  
+                </div>
+                
+              </Col>
           <Form>
-  
- 
-</Form> 
+         
+         
+</Form>   <Popup trigger={<Button >เพิ่มข้อมูลพันธุ์ประวัติ</Button>}
+                          modal
+
+                          closeOnDocumentClick>
+                            <span >
+                            <Card.Title style={{backgroundColor:"blue", color:"white" ,padding:"10px"}}> เพิ่มข้อมูลพันธุ์ประวัติ</Card.Title>
+                            <p className="row"></p>
+                            <div>  
+                      
+                            <Card
+              className="border-c32 "
+              style={{ width: "53rem", padding: "10px" }}
+            > 
+            
+             
+            </Card>
+                     <p className="row"></p>
+                            </div>
+                                  </span>
+                        </Popup>
         </div>
-        <Button type="pem" className="btn btn-blue">
-          เพิ่มข้อมูลพันธุ์ประวัติ
-        </Button>
-        <p></p>
+      
 
         <Button type="regisnew" className="btn btn-blue space">
           บันทึก

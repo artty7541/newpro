@@ -25,9 +25,9 @@ const Header = () => {
         <div className="border-c3" style={{ backgroundColor: "#2680EB", color: "white", padding: "20px" }}><h1>สมัครสมาชิก</h1></div>
         
         <p></p>
-        <p>กรุณากรอกรายละเอียดให้ครบถ้วน</p>
+        <p style={{color:"red"}}>* กรุณากรอกรายละเอียดให้ครบถ้วน</p>
         <p></p>
-        <div style={{fontSize:"50px"}}>
+        <div>
           <Form.Row >
             <Form.Label column="sm" lg={2}style={{fontSize:"20px"}} >
               ชื่อผู้ใช้
@@ -39,6 +39,19 @@ const Header = () => {
                 placeholder="กรุณากรอกชื่อผู้ใช้งาน"
               />
             </Col>
+            <Col md={{ span: 4, offset: 1 }} className="text-center ">
+                <div>
+                  <div className="container-fluid boxImgFrom  ">
+                 
+                    
+                    <input
+                      type="file"
+                      name="avatar"
+                      onChange={event => this.fileChangedHandler(event)}
+                    />
+                  </div>
+                </div>
+              </Col>
           </Form.Row>
           <Form.Row>
             <Form.Label column="sm" lg={2} style={{fontSize:"20px"}}>
@@ -51,6 +64,7 @@ const Header = () => {
                 placeholder="กรุณากรอกรหัสผ่าน"
               />
             </Col>
+
           </Form.Row>
           <Form.Row>
             <Form.Label column="sm" lg={2} style={{fontSize:"20px"}}>
@@ -173,6 +187,7 @@ const Header = () => {
           </Form.Row>
           
         </div>
+        <hr />
         <p className="row"></p>
         <p></p>
         <div className="border-c3" style={{ backgroundColor: "#2680EB", color: "white", padding: "20px" }}>
@@ -193,6 +208,24 @@ const Header = () => {
                 placeholder="กรุณากรอกชื่อฟาร์ม"
               />
             </Col>
+            <Col md={{ span: 4, offset: 1 }} className="text-center ">
+                <div>
+                  <div className="container-fluid boxImgFrom  ">
+                 
+                    
+                    <input
+                      type="file"
+                      name="avatar"
+                      onChange={event => this.fileChangedHandler(event)}
+                    />
+                  </div>
+                </div>
+              </Col>
+              <Col md={{ span: 4, offset: 1 }} className="text-center ">
+                <div>
+                
+                </div>
+              </Col>
           </Form.Row>
           <Form.Row>
             <Form.Label column="sm" lg={2} style={{fontSize:"20px"}}>
@@ -329,6 +362,7 @@ const Header = () => {
 
             
   </Form.Row>
+  <hr />
         <p></p>
         </div>
         <Button type="submit" className="btn btn-blue space">
