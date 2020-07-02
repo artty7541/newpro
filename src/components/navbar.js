@@ -1,19 +1,23 @@
 import React from "react";
 import "./styenavbar.css";
+import { Link } from "react-router-dom";
+import Logout from "../logout";
 //react------ HOOK
 export default function NavbarLogin() {
   return (
    
       <nav className="row">
         <div className="dropdown">
-          <div className="dropbtn">หน้าหลัก</div>
+          <Link to="/dash">
+            <div className="dropbtn">หน้าหลัก</div>
+          </Link>
         </div>
 
         <div className="dropdown">
           <div className="dropbtn">บันทึกทะเบียนประวัติ</div>
           <div className="dropdown-content">
-            <a href="/bufnew">บันทึกพันธุ์ประวัติกระบือใหม่</a>
-            <a href="/print">พิมพ์ใบพันธิ์ประวัติ</a>
+            <Link to ="/bufnew"><div>บันทึกพันธุ์ประวัติกระบือใหม่</div></Link>
+            <Link to ="/print"><div>พิมพ์ใบพันธิ์ประวัติ</div></Link>
           </div>
         </div>
 
@@ -65,12 +69,15 @@ export default function NavbarLogin() {
           <div className="dropdown-content">
             <a href="/usersetting">ตั้งค่าข้อมูลผู้ใช้</a>
             <a href="/profilesetting">ตั้งค่าโปรไฟล์(ข้อมูลส่วนตัว)</a>
-            <a href="/out">ออกจากระบบ</a>
           </div>
         </div>
 
-        
-        <div className="col floatRight"></div>
+        <div className="dropdown floatRight ">
+          <div>
+            <Logout/>
+          </div>
+        </div>
+
       </nav>
     
   );
