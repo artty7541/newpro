@@ -117,10 +117,12 @@ class NvBarLogin extends Component {
                         <Logout />
                     </div>
 
-                    
+
                 </nav>
             </div>
         );
     }
 
 }
+
+export default NvBarLogin;
