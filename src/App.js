@@ -15,6 +15,7 @@ import trace from "./components/trace";
 import finish from "./components/finish";
 import information from "./components/information";
 import payment from "./components/payment";
+
 class App extends Component {
   render() {
     return (
