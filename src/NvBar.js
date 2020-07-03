@@ -1,9 +1,9 @@
 import React,{Component} from "react";
 import Logout from "./logout";
-import "./components/stylenavbar";
+import "./StyleBar";
 import { Link } from "react-router-dom";
 //import Avatar from "@material-ui/core/Avatar";
-import firebase from "./backEnd/firebase"
+import firebase from "./firebase"
 
 class NvBarLogin extends Component {
     constructor(props){
