@@ -2,25 +2,12 @@ import React from "react";
 import "./../photo.css";
 import Footer from "./Footer";
 import { Form, Button, Row, Col } from "react-bootstrap";
+//import MainHeader from  "./../MainHeader";
+
 const Header = () => {
   return (
     <div className="container-fluid ">
-      
-      <div
-        className="row "
-        style={{ backgroundColor: "#1900ff", color: "white", padding: "20px" }}
-      >
-        <div className="col ">
-          <div className="row size-font">
-            การขึ้นทะเบียนกระบือและออกใบพันธุ์ประวัติกระบือออนไลน์
-          </div>
-          <div className="row size-font-eng">
-            {" "}
-            Buffalo Registration and Pedigree Online
-          </div>
-        </div>
-      </div>
-
+      <MainHeader/>
       <div class="center" className="coler-bg1 border-c">
         <div className="border-c1">
           <div className="border-c3" style={{ backgroundColor: "#2680EB", color: "white", padding: "20px" }}><h1>สมัครสมาชิก</h1></div>
