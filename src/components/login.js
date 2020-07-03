@@ -5,6 +5,7 @@ import { Form, Button } from "react-bootstrap";
 import firebase from "./../firebase/index";
 import Dash from "./dash";
 import swal from 'sweetalert';
+import Header from "./MainHeader";
 
 class Login extends Component {
   constructor(props) {
@@ -53,9 +54,8 @@ class Login extends Component {
 
   showLogin = () => {
     return (
-
       <div className="photo ">
-
+        <Header/>
         <div className="center">
           <Form className="coler-bg"
           onSubmit={this.handleSignIn}>
