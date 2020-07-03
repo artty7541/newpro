@@ -2,7 +2,9 @@ import React from "react";
 import "./../photo.css";
 import Footer from "./Footer";
 import { Form, Button, Row, Col } from "react-bootstrap";
+
 const Header = () => {
+  
   return (
     <div className="container-fluid ">
       

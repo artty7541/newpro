@@ -13,7 +13,7 @@ class Logout extends Component {
     render() {
         return (
             <div>
-                <Link to ="/"><div className=" floatRight "  onClick={(e)=>this.logout(e)} > ออกจากระบบ </div></Link>
+                <Link to ="/"><div className=" floatRight "  onClick={(e)=>this.logout(e)} style={{color:"white"}}> ออกจากระบบ </div></Link>
             </div>
         );
     }

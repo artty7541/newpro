@@ -38,14 +38,9 @@ export default function NavbarLogin() {
         </div>
 
         <div className="dropdown">
-          <div className="dropbtn">สถิติการขึ้นทะเบียน</div>
+          <div className="dropbtn">สถิติการขึ้นและออกรายงาน</div>
           <div className="dropdown-content">
-            <a href="/finishregister">
-              ใบพันธุ์ประวัติที่ขึ้นทะเบียนเสร็จเรียบร้อย
-            </a>
-            <a href="/wait">ใบพันธุ์ประวัติที่รอขึ้นทะเบียน</a>
-            <a href="/waitother">ใบพันธุ์ประวัติที่กำลังรอหลักฐานเพิ่มเติม</a>
-            <a href="/Shipping">ใบพันธุ์ประวัติที่กำลังจัดส่ง</a>
+            <a href="/statistics">สถิติ</a>
             <a href="/report">ออกรายงาน</a>
           </div>
         </div>
