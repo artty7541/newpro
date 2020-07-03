@@ -22,10 +22,9 @@ export default function NavbarLogin() {
         </div>
 
         <div className="dropdown">
+          <Link to = "/searchandRegistrational">
           <div className="dropbtn">ค้นหาและตรวจสอบสถานะการขึ้นทะเบียน</div>
-          <div className="dropdown-content">
-            <a href="/searchandRegistrational">ค้นหาและตรวจสอบสถานะการขึ้นทะเบียน</a>
-          </div>
+          </Link>
         </div>
 
         <div className="dropdown">
@@ -46,17 +45,9 @@ export default function NavbarLogin() {
         </div>
 
         <div className="dropdown">
+          <Link to = "/????">
           <div className="dropbtn">การแจ้งเตือน</div>
-          <div className="dropdown-content">
-            <a href="/notification">การแจ้งเตือน</a>
-          </div>
-        </div>
-        
-        <div className="dropdown">
-          <div className="dropbtn">คู่มือการใช้งาน</div>
-          <div className="dropdown-content">
-            <a href="/instructionmanual">คู่มือการใช้งาน</a>
-          </div>
+          </Link>
         </div>
 
         <div className="dropdown">
@@ -65,6 +56,12 @@ export default function NavbarLogin() {
             <a href="/usersetting">ตั้งค่าข้อมูลผู้ใช้</a>
             <a href="/profilesetting">ตั้งค่าโปรไฟล์(ข้อมูลส่วนตัว)</a>
           </div>
+        </div>
+
+        <div className="dropdown">
+          <Link to = "/instructionmanual">
+          <div className="dropbtn">คู่มื่อการใช้งาน</div>
+          </Link>
         </div>
 
         <div className="dropdown floatRight ">

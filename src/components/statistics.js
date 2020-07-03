@@ -9,6 +9,7 @@ import Popup from "reactjs-popup";
 import NavbarLogin from "./navbar";
 import buf from "./images/background.jpg";
 import { Form, Button, Row, Col,InputGroup,FormControl,Table,Card} from "react-bootstrap";
+
 class ChartData extends Component {
   constructor(props) {
     super(props);
@@ -24,12 +25,12 @@ class ChartData extends Component {
         datasets: [
           {
             label: "test01",
-            data: [12, 19, 3, 5],
+            data: [12, 19, 5, 7],
             backgroundColor: [
-              "rgba(255, 99, 132)",
+              "rgba(255, 85, 85)",
               "rgba(54, 162, 235)",
-              "rgba(255, 206, 86)",
-              "rgba(75, 192, 192)",
+              "rgba(255, 255, 85)",
+              "rgba(0, 255, 128)",
           
             ],
           },
@@ -45,12 +46,12 @@ class ChartData extends Component {
         ],
         datasets: [
           {
-            data: [12, 19, 3, 5],
+            data: [12, 19, 5, 7],
             backgroundColor: [
-              "rgba(255, 99, 132)",
+              "rgba(255, 85, 85)",
               "rgba(54, 162, 235)",
-              "rgba(255, 206, 86)",
-              "rgba(75, 192, 192)",
+              "rgba(255, 255, 85)",
+              "rgba(0, 255, 128)",
              
             ],
           },

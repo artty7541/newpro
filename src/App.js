@@ -18,6 +18,7 @@ import payment from "./components/payment";
 import usersetting from "./components/usersetting";
 import statistics from "./components/statistics";
 import report from "./components/report";
+
 class App extends Component {
   render() {
     return (

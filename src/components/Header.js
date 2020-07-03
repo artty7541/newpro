@@ -1,9 +1,9 @@
 import React from "react";
 import "./../photo.css";
 import Footer from "./Footer";
-import { Button } from "react-bootstrap";
+//import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import images from "./images/ควายป่า_2.jpg";
+//import images from "./images/ควายป่า_2.jpg";
 
 
 const Header = () => {
@@ -55,4 +55,5 @@ const Header = () => {
   );
 };
 export default Header;
-//<h1 } >ระบบจัดเก็บพันธุ์ประวัติและออกใบพันธุ์ประวัติกระบือออนไลน์</h1></div>
+
+//ระบบจัดเก็บพันธุ์ประวัติและออกใบพันธุ์ประวัติกระบือออนไลน์
