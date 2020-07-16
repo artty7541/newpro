@@ -15,6 +15,9 @@ import trace from "./components/trace";
 import finish from "./components/finish";
 import information from "./components/information";
 import payment from "./components/payment";
+import usersetting from "./components/usersetting";
+import statistics from "./components/statistics";
+import report from "./components/report";
 
 class App extends Component {
   render() {
@@ -46,7 +49,10 @@ class App extends Component {
         <Route path="/trace" component={trace} />
         <Route path="/finish" component={finish} />
         <Route path="/information" component={information} />
-        <Route payment="/information" component={payment} />
+        <Route path="/payment" component={payment} />
+        <Route path="/usersetting" component={usersetting} />
+        <Route path="/statistics" component={statistics} />
+        <Route path="/report" component={report} />
       </Switch>
     );
   }
