@@ -7,7 +7,6 @@ import { Form, Button, Row, Col } from "react-bootstrap";
 const Header = () => {
   return (
     <div className="container-fluid ">
-      <MainHeader/>
       <div class="center" className="coler-bg1 border-c">
         <div className="border-c1">
           <div className="border-c3" style={{ backgroundColor: "#2680EB", color: "white", padding: "20px" }}><h1>สมัครสมาชิก</h1></div>
@@ -188,7 +187,7 @@ const Header = () => {
         <p></p>
         <div class="container signin">
           <p>
-            มีปัญชีอยู่แล้ว ? <a href="login">เข้าสู่ระบบ</a>   <a>|</a> <a href="regisfarm">สมัครสมาชิกสำหรับเกษตรกร</a>
+            มีปัญชีอยู่แล้ว ? <a href="login">เข้าสู่ระบบ</a><a href="regisfarm">สมัครสมาชิกสำหรับเกษตรกร</a>
           </p>
         </div>
       </div> 
