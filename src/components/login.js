@@ -5,7 +5,7 @@ import { Form, Button } from "react-bootstrap";
 import firebase from "./../firebase/index";
 import Dash from "./dash";
 import swal from 'sweetalert';
-//import Header from "./MainHeader";
+import Header from './Header';
 
 class Login extends Component {
   constructor(props) {
@@ -38,7 +38,7 @@ class Login extends Component {
         this.setState({
           message: error.message
         });
-        swal("ชื่อผู้ใช้รหัสผ่านไม่ถูกต้อง");
+        swal("ชื่อผู้ใช้รหัส หรือ ผ่านไม่ถูกต้อง!", "กรุณาลองใหม่อีกครั้ง");
       });
   };
 
@@ -55,6 +55,7 @@ class Login extends Component {
   showLogin = () => {
     return (
       <div className="photo ">
+        < Header />
         <div className="center">
           <Form className="coler-bg"
           onSubmit={this.handleSignIn}>
